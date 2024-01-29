@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Pro-x Visual Studio</title>
+  <meta name="title" content="Prosper Timothy">
+  <meta name="description" content="This is a photographer portfolio html template, made by Bi Tech.">
+
+  <!-- 
+    - Icon
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="fotor-20240120141257.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="fotor-20240120141257.png" style="box-shadow: 0px 0px 5px black; border-radius: 50%;">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+
+</head>
+
+<body class="active" id="top">
+
+  <!-- 
+    -#PRELOADING
+  -->
+
+  <div class="loading" data-loading>
+    <img src="fotor-20240120141257.png" style="box-shadow: 0px 0px 5px black; border-radius: 50%;" width="55" height="55" alt="loading" class="img">
+    <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/Pro3.png" width="110" height="30" alt="Pro-X home">
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/Pro3.png" width="100" height="30" alt="Pro-X home" class="img">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="ContactSection.html" class="navbar-link" data-nav-link>Contact us</a>
+          </li>
+
+        </ul>
+
+      <a href="mailto:Prosper4grace@gmail.com">
+        <button class="login-btn">
+          <a href="mailto:Prosper4grace@gmail.com" style="display: flex; justify-content: center;">
+            <img src="./assets/images/user.svg" width="21" height="21" alt="user icon" style="margin-right: 5px;">
+            <span class="span" style="margin-left: 5px;">Email</span>
+          </a>
+        </button>
+      </a>
+
+
+        <p class="navbar-title">My Address</p>
+
+        <address class="navbar-text">
+          3287 Indiana Avenue, Waialua, Hawaii
+        </address>
+
+        <p class="navbar-text">
+          Urgent issue? call us at
+          <a href="tel:8085613846" class="contact-link">09160791170</a>
+          <a href="tel:8085613846" class="contact-link">07036077184</a>
+        </p>
+
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+
+<style>
+    /*-----------------------------------*\
+  #BREADCUMB
+\*-----------------------------------*/
+
+.breadcumb-wrapper {
+  background-image: url(assets/images/category-1.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--russian-violet_65);
+  background-blend-mode: darken;
+  text-align: center;
+  color: var(--white);
+  height: 400px;
+  min-height: 250px;
+  display: grid;
+  place-content: center;
+  gap: 20px;
+}
+.breadcumb-wrapper{
+  opacity: 1;
+}
+@media (min-width: 575px) {
+  .breadcumb-wrapper{
+    opacity: 0.5;
+  }
+}
+.page-title {
+  --fs-1: 3.5rem;
+  font-size: var(--fs-1);
+}
+
+.breadcumb-list {
+  display: flex;
+  justify-content: center;
+}
+
+.breadcumb-item {
+  font-size: 1.8rem; color: gray;
+  opacity: 1;
+  display: flex;
+}
+
+.breadcumb-item:not(:last-child)::after {
+  content: "/";
+  margin-inline: 10px;
+}
+
+.breadcumb-link { transition: var(--transition-2); }
+
+.breadcumb-link:is(:hover, :focus) { color: var(--emerald); }
+</style>
+<br><br><br>
+
+  <div class="breadcumb-wrapper">
+
+    <h2 class="page-title">Product Details</h2>
+
+
+
+  </div>
+
+ <style>
+  .breadcumb-link,
+  .breadcumb-item{
+    color: gray;
+  }
+  .breadcumb-link:hover{
+    color: hsl(346, 100%, 58%);
+  }
+ </style>
+  <ol class="breadcumb-list">
+
+    <li class="breadcumb-item">
+      <a href="./index.html" class="breadcumb-link" style="font-size: 1.8rem;  opacity: 1;">Home</a>
+    </li>
+
+    <li class="breadcumb-item" style="font-size: 1.8rem; ">Product</li>
+
+  </ol>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section" id="contact">
+      <div class="container">
+
+        <p class="section-subtitle" data-reveal>Contact Us</p>
+
+        <h2 class="h2 section-title" data-reveal>
+          Work inquiry, Job oportunities? Send Message.
+        </h2>
+
+        <a href="ContactSection.html" class="btn-icon" data-reveal>
+          <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+        </a>
+
+        <img src="./assets/images/footer-1.jpg" width="159" height="176" loading="lazy" alt="photography"
+          class="abs-img abs-img-1" data-reveal>
+
+        <img src="./assets/images/footer-2.jpg" width="265" height="275" loading="lazy" alt="photography"
+          class="abs-img abs-img-2" data-reveal>
+
+        <img src="./assets/images/footer-3.jpg" width="303" height="272" loading="lazy" alt="photography"
+          class="abs-img abs-img-3" data-reveal>
+
+        <img src="./assets/images/footer-4.jpg" width="175" height="175" loading="lazy" alt="photography"
+          class="abs-img abs-img-4" data-reveal>
+
+        <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <a href="index.html" class="logo" style="border-radius: 50%; background-color: aliceblue;">
+          <img src="fotor-20240120141257.png"  width="45" height="45" loading="lazy" alt="Pro-X home">
+        </a>
+        <style>
+          ::selection{
+            background-color: hsl(346, 100%, 58%);
+          }
+        </style>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link"><i style="font-size: 2.4rem;" class="lih bi bi-facebook"></i></a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link"><i style="font-size: 2.4rem;" class="lih bi bi-instagram"></i></a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link"><i style="font-size: 2.4rem;" class="lih bi bi-twitter-x"></i></a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">Made with love</p>
+
+      </div>
+    </div>
+
+    <div class="footer-bg has-before">
+      <img src="./assets/images/footer-bg.jpg" width="1920" height="1135" loading="lazy" alt="photography"
+        class="img-cover">
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
